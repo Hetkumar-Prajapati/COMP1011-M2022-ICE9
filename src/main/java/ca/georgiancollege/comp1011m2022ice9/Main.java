@@ -14,7 +14,7 @@ public class Main extends Application {
     {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("search-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Reading frm OMDB API");
+        stage.setTitle("Reading from OMDB API");
         Image icon = new Image(getClass().getResourceAsStream("icon.png"));
         stage.getIcons().add(icon);
         stage.setScene(scene);
